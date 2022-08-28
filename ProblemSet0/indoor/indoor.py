@@ -4,11 +4,8 @@
 # welcome, but not required, to prompt the user explicitly, as by passing 
 # a str of your own as an argument to input.
 
-# Get input from the user
-text = input()
-
-# Change text to lowercase
-text_lower = str.lower(text)
+# Get input from the user and change it to lowercase
+text = input().lower()
 
 # Print output
-print(text_lower)
+print(text)
