@@ -5,13 +5,13 @@
 # treat the user’s greeting case-insensitively.
 
 # Get user input
-answer = input("Greeting: ").lower().strip()
+greeting = input("Greeting: ").lower().strip()
 
 # Check if the answer has "hello", print $0
-if 'hello' in answer:
+if 'hello' in greeting:
     print("$0")
 # Check if answer starts with "h", print $20
-elif 'h' == answer[0]:
+elif 'h' == greeting[0]:
     print("$20")
 # Otherwise, print $100
 else:
